@@ -1,8 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@200;300;400;&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@200;300;400;700;800&family=Roboto:wght@500;700;900&display=swap');
 
 body {
-    font-family: 'Montserrat', sans-serif;
+    
     font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin: 0;
 
 }
@@ -25,9 +26,10 @@ h3 {
 p {
     line-height: 1.7;
 }
+
 .dream-on {
     display: flex;
-    margin-top: 60px;
+    margin-top: 30px;
     width: 100%;
 }
 
@@ -139,7 +141,7 @@ p {
 }
 
 .covid {
-    text-align:center;
+    text-align: center;
 }
 
 .sign {
@@ -153,8 +155,10 @@ p {
     padding: 30px;
     margin: 8% auto;
     text-align: center;
-    box-shadow: 0 0 3px 0 rgba(0,0,0,0.3);
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3);
+    background-image: url(images/shape-1.png);
 }
+
 .input-box {
     border-radius: 10px;
     padding: 15px;
@@ -163,6 +167,7 @@ p {
     border: 1px solid #999;
     outline: none;
 }
+
 button {
     color: #fff;
     width: 40%;
@@ -174,17 +179,21 @@ button {
     outline: none;
     cursor: pointer;
 }
-.sign-btn{
+
+.sign-btn {
     background-color: #1c8adb;
 }
+
 .signup-btn {
-    background-color:turquoise;
+    background-color: turquoise;
     width: 30%;
 }
+
 .sign-form a {
     text-decoration: none;
 
 }
+
 hr {
     margin-top: 20px;
     width: 80%;
@@ -192,12 +201,19 @@ hr {
 
 footer {
     background-color: rgb(19, 17, 17);
-    color:blanchedalmond;
+    color: blanchedalmond;
     padding: 7px;
 }
+
 footer h1 {
     text-align: center;
 }
+
 footer p {
-    text-align:center;
+    text-align: center;
 }
+
+.fixing {
+    margin-bottom: 75px;
+}
+
