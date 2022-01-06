@@ -189,3 +189,15 @@ hr {
     margin-top: 20px;
     width: 80%;
 }
+
+footer {
+    background-color: rgb(19, 17, 17);
+    color:blanchedalmond;
+    padding: 7px;
+}
+footer h1 {
+    text-align: center;
+}
+footer p {
+    text-align:center;
+}
