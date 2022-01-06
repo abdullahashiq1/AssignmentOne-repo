@@ -157,6 +157,7 @@ p {
     text-align: center;
     box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3);
     background-image: url(images/shape-1.png);
+    background-repeat: no-repeat;
 }
 
 .input-box {
@@ -217,3 +218,8 @@ footer p {
     margin-bottom: 75px;
 }
 
+.background {
+    background-image: url(images/shape-1.png);
+    background-repeat: no-repeat;
+    
+}
