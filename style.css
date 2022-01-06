@@ -50,10 +50,12 @@ h3 {
     border-image: linear-gradient(orange, tomato);
     border-image-slice: 1;
 }
+
 .pad {
     padding-left: 8px;
-    
+
 }
+
 .button-link {
     color: white;
     text-decoration: none;
@@ -63,6 +65,45 @@ h3 {
     border-radius: 5px;
     margin-top: 45px 0;
 }
+
 .under-down {
     margin-top: 40px;
+}
+
+#mission {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.three-part {
+    display: flex;
+    margin-left: 15%;
+    margin-right: 15%;
+
+}
+
+.three-box {
+    width: 30%;
+    padding: 15px 30px;
+    border-radius: 10px;
+    /* padding-left: 15px; */
+}
+
+.three-part img {
+    width: 40%;
+}
+
+.mission {
+    background-color: rgb(233, 247, 247);
+    margin-right: 3%;
+    
+}
+
+.vission {
+    background-color: rgb(250, 245, 239);
+    margin-right: 3%;
+}
+
+.goals {
+    background-color: rgb(243, 229, 227);
 }
